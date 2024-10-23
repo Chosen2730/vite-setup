@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF-regular";
+  src: url("./assets/fonts/normal.OTF") format("truetype");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+/* body {
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+} */
+@font-face {
+  font-family: "SF-bold";
+  src: url("./assets/fonts/bold.OTF") format("truetype");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: "SF-medium";
+  src: url("./assets/fonts/medium.OTF") format("truetype");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+.overflowHide {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.overflowHide::-webkit-scrollbar {
+  display: none;
+}
+.overflowX {
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.overflowX::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  font-family: "SF-regular";
+  line-height: 1.5;
+  /* font-weight: 400; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fontBold {
+  font-family: "SF-bold";
+}
+.fontMedium {
+  font-family: "SF-medium";
+}
